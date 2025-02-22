@@ -4,12 +4,12 @@ import { User, Lock } from "lucide-react";
 const Register = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-blue-100">
-      <div className="bg-white p-12 rounded-2xl shadow-2xl w-[450px]">
+      <div className="bg-[#F4FCF9] p-12 rounded-2xl shadow-2xl w-[450px]">
         <div className="flex flex-col items-center">
           <img
-            src="/logo.png" 
+            src="/pic/booktree2.png" 
             alt="BookTrees Logo"
-            className="w-24 h-24 mb-6"
+            className=" h-64 mb-6"
           />
           <h1 className="text-xl font-semibold text-gray-700">BookTrees</h1>
         </div>
@@ -17,7 +17,7 @@ const Register = () => {
           <div className="mb-6">
             <label className="block text-gray-600 mb-2 text-lg">ชื่อผู้ใช้งาน</label>
             <div className="flex items-center border rounded-lg px-4 py-3 text-lg">
-              <User className="text-gray-400" size={24} />
+              <User className="text-gray-400 " size={24} />
               <input
                 type="text"
                 placeholder="ชื่อผู้ใช้งาน"

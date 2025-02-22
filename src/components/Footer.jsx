@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="grid grid-cols-5 gap-8 w-full text-sm text-center bg-[#F4FCF9] text-black py-6 border-t border-gray-300">
       {/* Logo */}
       <div className="flex flex-col items-center col-span-1">
-        <img src="/logo.png" alt="Book Trees" className="h-16" />
+        <img src="/pic/booktree2.png" alt="Book Trees" className="h-" />
       </div>
 
       {/* Title */}
@@ -33,7 +33,7 @@ const Footer = () => {
         <h2 className="font-semibold">เกี่ยวกับ</h2>
         <ul className="space-y-1">
           <li>BookTrees ?</li>
-          <li>ความเชื่อใจ</li>
+          <li>ความตั้งใจ</li>
         </ul>
       </div>
 

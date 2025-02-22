@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Search, User, SquareLibrary, BookType, Info } from "lucide-react";
 
+
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const toggleDropdown = () => {
@@ -20,7 +21,7 @@ const Navbar = () => {
               isActive ? "text-black font-bold" : "text-gray-700 hover:text-black"
             }
           >
-            <img src="/logo.png" alt="BookTree" className="h-6" />
+            <img src="/pic/booktree2.png" alt="BookTree" className="h-20" />
           </NavLink>
         </div>
 
