@@ -1,7 +1,7 @@
 import http from "../http-common";
 
 const getBooksCategory = () => {
-  return http.get("/bookcategory");
+  return http.get("/bookcategories");
 }
 
 const BookCategoryService = {
